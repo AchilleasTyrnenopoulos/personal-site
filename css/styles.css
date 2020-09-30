@@ -1,0 +1,171 @@
+/********************TAG SELECTORS********************/
+a {
+  color: #61efff;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+div {
+  background-color: #bbdcda;
+}
+
+h1 {
+  color: #fae3d9;
+  font-family: 'Sacramento', cursive;
+  font-size: 562.5%; /*100% equals to 16px or/and 1em*/
+  margin: 50px auto 0 auto;
+
+}
+
+h2 {
+  color: #fae3d9;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #61c0bf;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+  border-color: #fae3d9;
+  border-style: dotted none none;
+  border-width: 4px;
+  width: 5%;
+}
+
+/********************CLASS SELECTORS********************/
+.top-container {
+  background-color: #ffb6b9;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+  background-color: #61c0bf;
+  padding: 30px 0 20px;
+}
+
+.hr1 {
+  margin-top: 40px;
+}
+
+.hr2 {
+  margin-top: 200px;
+}
+
+
+.pro {
+  text-decoration: underline;
+}
+
+.profile-pic {
+  margin-top: 50px;
+  height: 160px;
+  width: 160px;
+}
+
+.programmer {
+  font-weight: normal;
+}
+
+.bottom-cloud {
+  bottom: 300px;
+  left: 300px;
+  position: absolute;
+}
+
+.skills {
+  margin-bottom: 0;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.webdev-img {
+  float: left;
+  margin-right: 30px;
+  width: 35%;
+}
+
+.gamedev-img {
+  float: right;
+  margin-left: 30px;
+  width: 35%;
+}
+
+.BUTTON_DFW {
+   background: #FAE3D9;
+   background-image: -webkit-linear-gradient(top, #FAE3D9, #FFB6B9);
+   background-image: -moz-linear-gradient(top, #FAE3D9, #FFB6B9);
+   background-image: -ms-linear-gradient(top, #FAE3D9, #FFB6B9);
+   background-image: -o-linear-gradient(top, #FAE3D9, #FFB6B9);
+   background-image: linear-gradient(to bottom, #FAE3D9, #FFB6B9);
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   border-radius: 100px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px;
+   border: double #FFFFFF 2px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_DFW:hover {
+   background: #FFB6B9;
+   border: double #FFB6B9 10px;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   border-radius: 100px;
+   text-decoration: none;
+}
+
+.last-par {
+  margin-bottom: 0;
+}
+
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-par {
+  color: #EAf6f6;
+  font-size: 0.75rem;
+  margin-bottom: 0;
+  padding: 20px 0;
+}
+
+/********************ID SELECTORS********************/
+
+#sr1 {
+  margin-bottom: 40px;
+}
